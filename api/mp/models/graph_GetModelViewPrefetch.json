@@ -1,0 +1,77 @@
+{
+  "errors" : [ {
+    "message" : "Error fetching data (path: /model/notes, code: request.unauthorized): Unauthorized",
+    "locations" : [ {
+      "line" : 24,
+      "column" : 5
+    } ],
+    "path" : [ "model", "notes" ],
+    "extensions" : {
+      "code" : "request.unauthorized",
+      "retry" : "false",
+      "httpCode" : "401",
+      "classification" : "DataFetchingException"
+    }
+  } ],
+  "data" : {
+    "model" : {
+      "id" : "moJtzmGGkXE",
+      "mattertags" : [ ],
+      "orderedLists" : [ ],
+      "labels" : [ ],
+      "measurementPaths" : [ ],
+      "activeHighlightReel" : null,
+      "notes" : null,
+      "image" : {
+        "id" : "YUPXykzmPaf",
+        "label" : "Living Room",
+        "classification" : "Living Room",
+        "category" : "snapshot",
+        "height" : 4320,
+        "width" : 7680,
+        "created" : "2024-01-24T12:07:58Z",
+        "modified" : "2024-01-24T12:08:00Z",
+        "status" : "available",
+        "filename" : "Living-Room.jpg",
+        "format" : "image",
+        "url" : "http://127.0.0.1:8080/apifs/models/moJtzmGGkXE/images/YUPXykzmPaf/YUPXykzmPaf-Living_Room.jpg?t=2-866d058c85495232566e81f7d45f83df18e23d91-1710436452-1",
+        "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+        "type" : "photo2D",
+        "origin" : "vision",
+        "validUntil":"2099-01-01T16:19:12Z",
+        "thumbnailUrl" : "http://127.0.0.1:8080/apifs/models/moJtzmGGkXE/images/YUPXykzmPaf/YUPXykzmPaf-Living_Room.jpg?t=2-866d058c85495232566e81f7d45f83df18e23d91-1710436452-1&width=200&height=140&fit=crop&disable=upscale",
+        "presentationUrl" : "http://127.0.0.1:8080/apifs/models/moJtzmGGkXE/images/YUPXykzmPaf/YUPXykzmPaf-Living_Room.jpg?t=2-866d058c85495232566e81f7d45f83df18e23d91-1710436452-1&width=1920&height=1080&fit=crop&disable=upscale",
+        "snapshotLocation" : {
+          "viewMode" : "panorama",
+          "position" : {
+            "x" : -13.191193580627441,
+            "y" : 0.18212111294269562,
+            "z" : 1.5052570104599,
+            "__typename" : "Point"
+          },
+          "rotation" : {
+            "x" : -0.3465650120733688,
+            "y" : 0.6516981870946214,
+            "z" : -0.595680617540446,
+            "w" : 0.3167755941726494,
+            "__typename" : "Quaternion"
+          },
+          "zoom" : 1.0,
+          "floorVisibility" : [ ],
+          "anchor" : {
+            "id" : "21d9byrdrgqepk41un4ectwmb",
+            "pano" : {
+              "id" : "21d9byrdrgqepk41un4ectwmb",
+              "placement" : "auto",
+              "__typename" : "PanoramicImageLocation"
+            },
+            "__typename" : "AnchorLocation"
+          },
+          "__typename" : "SnapshotLocation"
+        },
+        "__typename" : "Photo"
+      },
+      "__typename" : "Model"
+    }
+  }
+}
